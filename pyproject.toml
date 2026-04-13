@@ -1,0 +1,8 @@
+[project]
+name = "coco-de-dashboard"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "snowflake-connector-python>=3.3.0",
+    "snowflake-snowpark-python>=1.11.0",
+]

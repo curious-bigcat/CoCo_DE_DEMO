@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: SFSEAPAC-BSURESH
+      user: bsuresh
+      role: ACCOUNTADMIN
+      database: COCO_DE_DEMO
+      warehouse: DEMO_WH
+      schema: SILVER
+      threads: 4

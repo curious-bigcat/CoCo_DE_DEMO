@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,brand,unit_price,cost_price,stock_quantity,created_at
+1,PrimeTech Dolls Max 709,Toys,Dolls,PrimeTech,844.96,390.13,1907,2023-10-22 18:07:13
+2,DriveWell Condiments Ultra 874,Grocery,Condiments,DriveWell,790.75,440.87,3278,2023-07-08 04:16:11
+3,KidJoy Frozen Ultra 250,Grocery,Frozen,KidJoy,769.38,264.06,2053,2024-01-31 03:58:08
+4,ReadMore Cereal Pro 201,Grocery,Cereal,ReadMore,739.36,467.37,4080,2022-02-11 13:16:14
+5,BloomCraft Decor Basic 256,Home & Kitchen,Decor,BloomCraft,306.93,168.59,626,2024-03-18 17:06:01
+6,GlowUp Organic Ultra 777,Grocery,Organic,GlowUp,500.9,251.41,4443,2023-06-18 18:55:11
+7,StyleMax Parts Elite 221,Automotive,Parts,StyleMax,387.32,164.93,3082,2023-11-19 11:41:20
+8,StyleMax Snacks Lite 670,Grocery,Snacks,StyleMax,661.44,404.64,1344,2024-02-03 11:41:16
+9,GreenThumb Hair Care Elite 599,Beauty,Hair Care,GreenThumb,765.42,403.79,4018,2024-05-10 06:33:36
+10,KidJoy Lighting Lite 618,Automotive,Lighting,KidJoy,61.39,24.88,4841,2023-08-10 21:19:09
+11,GreenThumb Soil Basic 162,Garden,Soil,GreenThumb,33.97,10.8,3001,2023-06-26 23:04:09
+12,PrimeTech Plants Elite 199,Garden,Plants,PrimeTech,431.57,300.71,3374,2023-06-30 16:16:02
+13,FreshMart Headphones Max 763,Electronics,Headphones,FreshMart,316.22,105.61,536,2023-04-19 15:57:37
+14,FunPlay Hats Pro 651,Clothing,Hats,FunPlay,330.15,159.91,3460,2024-06-01 10:25:00
+15,AutoParts Oils Pro 812,Automotive,Oils,AutoParts,472.87,146.07,2592,2023-08-10 19:04:41
+16,PrimeTech Pots Plus 927,Garden,Pots,PrimeTech,491.42,283.23,1686,2023-06-06 21:46:29
+17,FunPlay Dairy Ultra 472,Grocery,Dairy,FunPlay,969.6,369.13,617,2024-04-12 09:20:25
+18,AutoParts Basketball Pro 404,Sports,Basketball,AutoParts,996.24,459.08,1850,2022-05-23 20:26:11
+19,DriveWell Tools Basic 379,Garden,Tools,DriveWell,72.86,45.21,3893,2023-10-26 11:39:42
+20,HomeEase Soccer Ultra 616,Sports,Soccer,HomeEase,805.29,381.03,4423,2023-05-02 18:38:43
+21,CozyHome Tennis Ultra 739,Sports,Tennis,CozyHome,518.27,294.7,4485,2022-10-08 13:17:15
+22,DriveWell Tablets Standard 318,Electronics,Tablets,DriveWell,662.83,417.29,3828,2023-02-21 05:22:34
+23,DriveWell Oils Pro 634,Automotive,Oils,DriveWell,205.43,99.63,1969,2022-08-22 18:01:37
+24,ActiveLife Children Basic 980,Books,Children,ActiveLife,831.22,270.79,1667,2023-10-03 16:49:02
+25,FunPlay Biography Ultra 803,Books,Biography,FunPlay,603.61,279.08,930,2022-08-21 22:59:52
+26,FreshMart Fitness Ultra 575,Sports,Fitness,FreshMart,488.46,340.22,3457,2022-02-27 11:35:57
+27,AutoParts Running Lite 129,Sports,Running,AutoParts,262.84,163.33,4511,2022-10-01 09:12:16
+28,TechPro Keyboards Pro 980,Electronics,Keyboards,TechPro,897.12,381.78,2441,2022-04-09 18:29:50
+29,HomeEase Bath Elite 959,Beauty,Bath,HomeEase,725.88,258.58,916,2024-06-05 23:25:49
+30,PureSkin Accessories Ultra 608,Automotive,Accessories,PureSkin,885.25,349.88,1001,2023-05-02 20:47:02
+31,FreshMart Educational Elite 323,Toys,Educational,FreshMart,149.4,55.29,2249,2023-11-14 16:49:51
+32,DriveWell Nail Care Pro 602,Beauty,Nail Care,DriveWell,536.26,310.95,925,2023-05-07 15:36:01
+33,KidJoy Oils Max 384,Automotive,Oils,KidJoy,880.15,593.92,2973,2024-01-09 05:33:07
+34,TechPro Building Sets Pro 961,Toys,Building Sets,TechPro,741.0,459.11,447,2023-01-08 07:45:45
+35,GreenThumb Children Basic 931,Books,Children,GreenThumb,687.13,353.16,1936,2023-11-19 05:58:18
+36,CozyHome Skincare Ultra 408,Beauty,Skincare,CozyHome,95.7,60.2,1928,2023-04-08 00:43:46
+37,PageTurn Running Basic 931,Sports,Running,PageTurn,768.13,355.27,277,2023-03-02 16:49:19
+38,KidJoy Accessories Elite 961,Clothing,Accessories,KidJoy,336.72,157.9,822,2022-09-07 02:01:59
+39,UrbanWear Non-Fiction Elite 716,Books,Non-Fiction,UrbanWear,730.85,379.38,2676,2023-12-06 02:49:22
+40,FunPlay Phones Standard 910,Electronics,Phones,FunPlay,643.24,193.76,1639,2023-04-20 15:38:16
+41,SportZone Board Games Lite 355,Toys,Board Games,SportZone,519.26,357.18,1065,2023-09-30 09:41:48
+42,KidJoy Plush Lite 366,Toys,Plush,KidJoy,178.43,95.85,2683,2023-03-14 18:09:57
+43,ActiveLife Cycling Basic 286,Sports,Cycling,ActiveLife,397.12,179.07,4672,2022-12-15 17:29:13
+44,NatureBite Phones Max 191,Electronics,Phones,NatureBite,974.27,369.55,1382,2022-03-19 08:02:36
+45,BloomCraft Tools Ultra 252,Beauty,Tools,BloomCraft,94.52,42.27,4646,2022-07-02 07:08:40
+46,PageTurn Monitors Standard 221,Electronics,Monitors,PageTurn,229.13,87.36,2180,2023-03-24 08:00:01
+47,ReadMore Frozen Elite 976,Grocery,Frozen,ReadMore,211.36,81.63,2318,2022-10-22 03:58:14
+48,ActiveLife Hair Care Lite 129,Beauty,Hair Care,ActiveLife,294.44,119.17,3694,2023-01-21 17:57:52
+49,HomeEase Plush Pro 580,Toys,Plush,HomeEase,138.4,59.41,3256,2022-11-26 16:02:52
+50,BloomCraft Tools Ultra 174,Beauty,Tools,BloomCraft,100.7,32.58,2726,2022-12-31 19:31:24
+51,BloomCraft Dairy Pro 105,Grocery,Dairy,BloomCraft,258.12,141.41,2478,2023-09-06 03:21:49
+52,NatureBite Puzzles Pro 694,Toys,Puzzles,NatureBite,184.29,67.81,4037,2023-06-11 21:25:30
+53,HomeEase Canned Goods Basic 827,Grocery,Canned Goods,HomeEase,533.23,190.21,957,2023-05-02 15:32:15
+54,KidJoy Tablets Ultra 865,Electronics,Tablets,KidJoy,364.42,172.02,2156,2023-02-14 17:36:31
+55,ActiveLife Tires Lite 423,Automotive,Tires,ActiveLife,738.44,366.64,1239,2024-05-13 05:03:16
+56,GlowUp Snacks Lite 155,Grocery,Snacks,GlowUp,234.47,73.7,2131,2022-09-12 01:46:14
+57,SportZone Frozen Standard 141,Grocery,Frozen,SportZone,444.86,309.41,4594,2024-01-24 17:32:56
+58,SportZone Organic Lite 226,Grocery,Organic,SportZone,353.5,134.86,2327,2022-10-08 15:18:18
+59,DriveWell Storage Max 697,Home & Kitchen,Storage,DriveWell,998.01,301.05,4675,2022-10-08 12:05:40
+60,FreshMart Makeup Standard 793,Beauty,Makeup,FreshMart,99.73,43.03,2328,2022-07-09 12:09:07
+61,DriveWell Bath Plus 957,Beauty,Bath,DriveWell,327.59,102.06,3770,2024-01-16 10:17:40
+62,BloomCraft Condiments Pro 437,Grocery,Condiments,BloomCraft,969.94,545.56,3711,2023-05-20 17:43:35
+63,GlowUp Furniture Pro 920,Garden,Furniture,GlowUp,645.77,277.21,454,2022-04-20 20:47:06
+64,HomeEase Oils Elite 361,Automotive,Oils,HomeEase,182.93,125.49,3267,2022-05-19 13:10:52
+65,FunPlay Headphones Elite 898,Electronics,Headphones,FunPlay,405.97,226.88,1262,2022-07-07 08:22:04
+66,ActiveLife Comics Ultra 801,Books,Comics,ActiveLife,605.88,268.78,787,2023-07-25 19:47:00
+67,KidJoy Care Standard 497,Automotive,Care,KidJoy,479.57,251.88,3465,2022-05-21 03:43:58
+68,BloomCraft Bath Lite 544,Beauty,Bath,BloomCraft,632.89,213.4,4205,2023-06-15 21:10:16
+69,ReadMore Cereal Standard 639,Grocery,Cereal,ReadMore,631.77,322.12,2381,2023-12-29 08:28:33
+70,KidJoy Makeup Ultra 252,Beauty,Makeup,KidJoy,984.27,564.7,2460,2023-01-22 06:28:28
+71,GreenThumb Oils Pro 664,Automotive,Oils,GreenThumb,82.06,26.1,881,2024-03-04 06:28:15
+72,SportZone Tools Standard 776,Beauty,Tools,SportZone,721.98,451.33,2911,2023-01-31 21:52:37
+73,PureSkin Tools Pro 216,Garden,Tools,PureSkin,742.06,360.01,1492,2023-09-03 10:30:41
+74,ActiveLife Laptops Ultra 421,Electronics,Laptops,ActiveLife,589.68,284.23,3685,2023-02-16 18:41:22
+75,GlowUp Puzzles Lite 180,Toys,Puzzles,GlowUp,748.54,405.43,871,2023-11-05 21:11:45
+76,TechPro Parts Elite 219,Automotive,Parts,TechPro,19.21,10.8,3769,2023-09-22 06:54:33
+77,GreenThumb Irrigation Basic 807,Garden,Irrigation,GreenThumb,675.75,389.31,3235,2023-04-16 03:51:29
+78,ReadMore Dresses Pro 295,Clothing,Dresses,ReadMore,117.23,35.91,1541,2022-02-11 15:44:48
+79,ReadMore Yoga Max 546,Sports,Yoga,ReadMore,843.03,542.3,4412,2022-10-24 13:48:24
+80,PageTurn Shoes Lite 585,Clothing,Shoes,PageTurn,425.34,147.42,1248,2023-11-23 16:43:03
+81,TechPro Organic Standard 699,Grocery,Organic,TechPro,247.16,103.3,3209,2022-03-21 02:30:59
+82,SportZone Action Figures Elite 525,Toys,Action Figures,SportZone,849.51,505.32,4881,2024-05-11 01:58:13
+83,KidJoy Fiction Elite 597,Books,Fiction,KidJoy,516.27,304.52,3996,2022-12-27 06:04:27
+84,ActiveLife Phones Basic 666,Electronics,Phones,ActiveLife,69.12,45.42,3417,2024-01-06 07:19:07
+85,BloomCraft Accessories Basic 559,Clothing,Accessories,BloomCraft,699.32,215.62,2359,2022-10-26 13:47:01
+86,PageTurn Dairy Max 619,Grocery,Dairy,PageTurn,224.37,148.9,2778,2023-12-29 17:43:34
+87,CozyHome Storage Elite 953,Home & Kitchen,Storage,CozyHome,941.54,528.2,2951,2024-01-04 17:32:47
+88,GreenThumb Lighting Plus 783,Home & Kitchen,Lighting,GreenThumb,485.98,179.48,1280,2024-02-04 14:00:51
+89,KidJoy Socks Ultra 340,Clothing,Socks,KidJoy,214.17,68.28,148,2023-07-12 08:32:22
+90,FunPlay Self-Help Lite 947,Books,Self-Help,FunPlay,860.29,431.34,521,2023-06-09 15:39:51
+91,BloomCraft Makeup Max 223,Beauty,Makeup,BloomCraft,564.6,279.22,2787,2023-07-06 20:20:36
+92,ReadMore Cameras Plus 823,Electronics,Cameras,ReadMore,56.11,38.07,3744,2022-06-22 07:48:05
+93,NatureBite Pants Pro 619,Clothing,Pants,NatureBite,110.77,61.14,1682,2023-07-16 18:51:29
+94,PageTurn Storage Standard 850,Home & Kitchen,Storage,PageTurn,871.26,315.15,2979,2023-06-04 19:04:21
+95,GlowUp Furniture Standard 525,Home & Kitchen,Furniture,GlowUp,770.59,233.21,3880,2023-06-15 05:20:04
+96,HomeEase Science Ultra 481,Books,Science,HomeEase,716.9,334.08,2010,2022-08-24 12:28:32
+97,FreshMart Oils Lite 921,Automotive,Oils,FreshMart,432.24,288.39,3758,2024-03-12 19:39:50
+98,PageTurn Action Figures Lite 888,Toys,Action Figures,PageTurn,15.88,9.89,570,2022-05-12 16:45:39
+99,CozyHome Outdoor Lite 544,Toys,Outdoor,CozyHome,67.09,40.5,1236,2024-06-11 13:02:50
+100,ActiveLife Cameras Elite 797,Electronics,Cameras,ActiveLife,702.58,456.27,2569,2023-06-19 15:06:59
+101,PureSkin Cameras Lite 817,Electronics,Cameras,PureSkin,407.5,227.2,4459,2023-11-18 20:18:58
+102,GlowUp Educational Ultra 186,Toys,Educational,GlowUp,42.74,18.54,1032,2024-03-19 12:31:00
+103,GlowUp Electronics Plus 623,Automotive,Electronics,GlowUp,554.47,281.97,1310,2022-02-06 09:13:33
+104,FreshMart Cameras Ultra 843,Electronics,Cameras,FreshMart,426.2,214.0,491,2023-08-03 09:39:36
+105,SportZone Self-Help Pro 874,Books,Self-Help,SportZone,653.05,228.5,2440,2024-06-08 05:56:02
+106,PrimeTech Keyboards Max 924,Electronics,Keyboards,PrimeTech,747.27,398.02,4368,2022-12-30 06:06:31
+107,GreenThumb Building Sets Lite 831,Toys,Building Sets,GreenThumb,381.39,226.93,862,2023-05-25 07:01:14
+108,UrbanWear Care Standard 200,Automotive,Care,UrbanWear,151.66,71.32,3375,2022-05-08 07:12:42
+109,ActiveLife Shirts Lite 587,Clothing,Shirts,ActiveLife,219.49,72.7,4311,2023-09-18 15:44:47
+110,AutoParts Pots Standard 751,Garden,Pots,AutoParts,426.87,203.2,4010,2023-10-10 15:59:30
+111,PureSkin Bedding Lite 596,Home & Kitchen,Bedding,PureSkin,712.87,250.75,4204,2024-04-01 23:48:37
+112,PageTurn Jackets Standard 133,Clothing,Jackets,PageTurn,748.01,506.87,3025,2022-07-04 11:55:10
+113,SportZone Pots Plus 478,Garden,Pots,SportZone,574.32,181.55,1255,2022-07-02 21:44:52
+114,UrbanWear Building Sets Ultra 401,Toys,Building Sets,UrbanWear,489.0,301.46,1164,2023-10-18 04:14:22
+115,GreenThumb Cameras Max 287,Electronics,Cameras,GreenThumb,820.2,406.42,1002,2024-04-30 13:40:12
+116,StyleMax Board Games Elite 592,Toys,Board Games,StyleMax,575.61,302.95,2767,2023-08-10 02:58:24
+117,ReadMore Canned Goods Standard 879,Grocery,Canned Goods,ReadMore,453.22,217.38,2664,2022-05-19 17:54:13
+118,CozyHome Pots Max 504,Garden,Pots,CozyHome,342.95,109.17,3629,2023-03-07 21:17:35
+119,TechPro Dresses Ultra 674,Clothing,Dresses,TechPro,647.28,360.9,697,2022-10-26 22:11:18
+120,DriveWell Plants Max 868,Garden,Plants,DriveWell,478.97,315.52,985,2024-04-06 05:09:25
+121,AutoParts Cookware Max 351,Home & Kitchen,Cookware,AutoParts,830.7,527.97,4747,2023-11-22 02:04:30
+122,CozyHome Hats Pro 603,Clothing,Hats,CozyHome,862.79,266.87,3580,2022-10-08 09:49:34
+123,PureSkin Skincare Basic 491,Beauty,Skincare,PureSkin,261.62,90.48,813,2024-04-21 14:59:43
+124,ReadMore Storage Lite 361,Home & Kitchen,Storage,ReadMore,769.68,278.39,3336,2022-09-20 19:53:58
+125,FunPlay Speakers Pro 830,Electronics,Speakers,FunPlay,64.14,29.25,2621,2022-08-10 07:18:51
+126,AutoParts Bath Elite 947,Beauty,Bath,AutoParts,900.09,288.7,1962,2024-06-29 08:44:51
+127,PureSkin Yoga Elite 217,Sports,Yoga,PureSkin,273.66,116.94,4531,2023-09-25 08:54:38
+128,TechPro Accessories Elite 748,Clothing,Accessories,TechPro,238.33,155.98,2204,2024-05-10 17:25:22
+129,FreshMart Tools Lite 411,Garden,Tools,FreshMart,570.83,273.08,4099,2022-11-13 01:25:23
+130,NatureBite Appliances Lite 900,Home & Kitchen,Appliances,NatureBite,249.68,170.04,4547,2023-12-03 18:09:45
+131,PageTurn Phones Ultra 768,Electronics,Phones,PageTurn,972.24,291.88,3950,2023-03-01 13:28:19
+132,CozyHome Fencing Basic 962,Garden,Fencing,CozyHome,634.4,338.81,4180,2023-03-14 00:02:42
+133,NatureBite Tablets Plus 407,Electronics,Tablets,NatureBite,95.17,55.14,1144,2024-05-14 11:02:37
+134,GlowUp Children Basic 798,Books,Children,GlowUp,945.73,524.0,3708,2023-03-01 02:40:03
+135,PrimeTech Soccer Max 570,Sports,Soccer,PrimeTech,959.23,413.8,1095,2022-01-04 04:20:12
+136,TechPro Irrigation Pro 788,Garden,Irrigation,TechPro,178.48,93.22,4005,2023-09-03 04:18:46
+137,HomeEase Accessories Pro 952,Automotive,Accessories,HomeEase,817.15,390.66,1011,2023-07-03 08:35:50
+138,CozyHome Bath Lite 959,Beauty,Bath,CozyHome,769.35,445.31,69,2022-07-13 19:32:02
+139,GlowUp Dairy Standard 109,Grocery,Dairy,GlowUp,226.18,69.64,2303,2023-07-10 20:32:04
+140,BloomCraft Cycling Ultra 927,Sports,Cycling,BloomCraft,719.49,283.27,4045,2023-07-18 21:35:25
+141,KidJoy Cameras Max 107,Electronics,Cameras,KidJoy,200.9,126.26,3244,2022-06-22 08:23:10
+142,FunPlay Comics Max 775,Books,Comics,FunPlay,740.37,421.17,4939,2024-05-27 21:57:18
+143,DriveWell Furniture Lite 863,Home & Kitchen,Furniture,DriveWell,70.65,28.53,4668,2022-12-21 03:09:27
+144,GlowUp Electronics Pro 809,Automotive,Electronics,GlowUp,679.66,370.95,4588,2023-12-07 03:35:33
+145,StyleMax Monitors Basic 542,Electronics,Monitors,StyleMax,845.27,391.15,997,2024-03-16 03:26:53
+146,UrbanWear Organic Pro 838,Grocery,Organic,UrbanWear,229.19,94.24,3441,2024-04-07 01:41:38
+147,TechPro Dairy Elite 299,Grocery,Dairy,TechPro,338.69,220.84,207,2022-12-17 12:01:17
+148,FreshMart Makeup Max 268,Beauty,Makeup,FreshMart,333.24,108.35,792,2022-02-13 07:10:17
+149,TechPro Frozen Basic 960,Grocery,Frozen,TechPro,254.9,87.47,1952,2023-06-14 10:01:05
+150,PureSkin Speakers Max 174,Electronics,Speakers,PureSkin,777.08,425.71,783,2023-11-25 13:05:35
+151,HomeEase Tools Pro 134,Garden,Tools,HomeEase,381.12,250.03,532,2022-07-18 02:52:44
+152,StyleMax Keyboards Ultra 725,Electronics,Keyboards,StyleMax,628.42,205.06,457,2024-05-18 18:39:05
+153,CozyHome Cameras Elite 198,Electronics,Cameras,CozyHome,619.59,287.76,4911,2022-01-17 11:26:26
+154,PageTurn Frozen Elite 735,Grocery,Frozen,PageTurn,621.51,270.88,212,2023-12-07 09:12:31
+155,DriveWell Tires Max 210,Automotive,Tires,DriveWell,108.06,58.14,553,2022-10-28 18:28:23
+156,PureSkin Furniture Ultra 463,Garden,Furniture,PureSkin,424.47,250.37,3642,2022-10-16 19:43:37
+157,StyleMax Running Pro 230,Sports,Running,StyleMax,315.79,149.79,2930,2023-04-29 09:56:18
+158,ReadMore Furniture Standard 416,Garden,Furniture,ReadMore,605.7,252.23,66,2024-03-15 04:31:52
+159,StyleMax Furniture Max 619,Garden,Furniture,StyleMax,820.26,429.64,447,2023-10-18 15:34:47
+160,GlowUp Dolls Max 904,Toys,Dolls,GlowUp,73.98,27.8,3897,2023-12-28 02:01:26
+161,DriveWell Soil Basic 730,Garden,Soil,DriveWell,303.82,131.08,858,2023-12-07 17:36:34
+162,FreshMart Keyboards Pro 754,Electronics,Keyboards,FreshMart,227.68,89.28,1746,2023-01-07 07:16:32
+163,CozyHome Dairy Max 509,Grocery,Dairy,CozyHome,189.13,131.63,2972,2022-01-16 08:48:14
+164,TechPro Hats Plus 245,Clothing,Hats,TechPro,294.82,111.37,4797,2023-07-14 02:23:20
+165,GlowUp Phones Max 390,Electronics,Phones,GlowUp,179.09,117.15,1427,2023-06-12 21:18:51
+166,FunPlay Care Max 122,Automotive,Care,FunPlay,181.01,73.26,828,2022-02-02 14:42:14
+167,SportZone Decor Basic 315,Home & Kitchen,Decor,SportZone,309.23,122.47,3050,2022-09-24 04:45:23
+168,HomeEase Oils Plus 247,Automotive,Oils,HomeEase,883.42,311.24,1553,2022-10-25 18:23:47
+169,UrbanWear Oils Basic 713,Automotive,Oils,UrbanWear,432.95,240.05,378,2022-10-21 18:14:22
+170,ReadMore Electronics Basic 353,Automotive,Electronics,ReadMore,58.93,36.43,1035,2024-02-29 13:39:34
+171,GlowUp Irrigation Plus 903,Garden,Irrigation,GlowUp,473.83,267.9,531,2022-09-18 02:22:29
+172,PureSkin Oils Basic 610,Automotive,Oils,PureSkin,521.77,193.89,3062,2024-03-27 07:09:10
+173,KidJoy Organic Ultra 695,Grocery,Organic,KidJoy,404.53,270.42,4783,2022-02-26 20:42:51
+174,GlowUp Swimming Standard 983,Sports,Swimming,GlowUp,238.97,92.59,3481,2023-08-09 18:40:18
+175,UrbanWear Furniture Ultra 663,Garden,Furniture,UrbanWear,90.24,54.2,2417,2023-11-22 12:21:33
+176,FreshMart Tires Pro 576,Automotive,Tires,FreshMart,515.18,223.87,3695,2023-12-28 07:33:51
+177,UrbanWear Tools Standard 424,Beauty,Tools,UrbanWear,277.37,85.95,3618,2022-12-30 04:20:16
+178,UrbanWear Non-Fiction Plus 401,Books,Non-Fiction,UrbanWear,843.54,426.09,640,2023-03-06 09:52:08
+179,SportZone Cycling Plus 468,Sports,Cycling,SportZone,44.04,16.74,1610,2023-05-27 11:00:18
+180,AutoParts Biography Max 822,Books,Biography,AutoParts,606.4,215.36,4449,2023-02-10 15:50:06
+181,GreenThumb Cameras Basic 901,Electronics,Cameras,GreenThumb,996.85,676.19,4750,2022-01-19 11:19:05
+182,CozyHome Canned Goods Max 332,Grocery,Canned Goods,CozyHome,724.99,278.36,1914,2024-03-12 07:21:46
+183,PageTurn Irrigation Basic 910,Garden,Irrigation,PageTurn,91.35,58.31,3512,2023-10-11 20:31:56
+184,PageTurn Yoga Pro 483,Sports,Yoga,PageTurn,144.11,93.6,2503,2022-01-16 00:56:22
+185,PrimeTech Dairy Max 529,Grocery,Dairy,PrimeTech,429.16,257.95,4404,2023-04-11 11:17:05
+186,DriveWell Action Figures Pro 242,Toys,Action Figures,DriveWell,158.76,108.12,2705,2024-06-01 15:41:29
+187,CozyHome Pots Max 500,Garden,Pots,CozyHome,69.32,31.51,3889,2022-06-18 18:19:53
+188,GreenThumb Plush Plus 275,Toys,Plush,GreenThumb,109.68,57.16,262,2024-01-30 00:49:30
+189,GlowUp Tablets Plus 495,Electronics,Tablets,GlowUp,288.1,113.29,4295,2022-04-19 17:01:20
+190,UrbanWear Snacks Pro 275,Grocery,Snacks,UrbanWear,330.8,219.63,3203,2022-09-01 22:42:21
+191,NatureBite Dresses Elite 589,Clothing,Dresses,NatureBite,744.67,339.27,1691,2022-07-21 20:13:35
+192,ActiveLife Basketball Standard 262,Sports,Basketball,ActiveLife,606.08,409.51,4812,2022-11-12 07:22:33
+193,AutoParts Lighting Max 107,Automotive,Lighting,AutoParts,991.13,474.05,3270,2023-01-19 10:52:00
+194,DriveWell Tires Standard 571,Automotive,Tires,DriveWell,465.91,147.06,746,2023-03-24 06:07:45
+195,GreenThumb Dairy Elite 727,Grocery,Dairy,GreenThumb,824.48,527.62,3400,2023-01-23 00:25:09
+196,PageTurn Decor Elite 774,Home & Kitchen,Decor,PageTurn,188.33,99.33,3223,2022-03-09 19:55:45
+197,AutoParts Running Ultra 782,Sports,Running,AutoParts,916.79,531.02,1779,2024-02-06 14:33:01
+198,UrbanWear Makeup Plus 873,Beauty,Makeup,UrbanWear,110.58,67.08,2670,2023-09-30 01:29:22
+199,AutoParts Canned Goods Max 618,Grocery,Canned Goods,AutoParts,50.36,15.65,3783,2023-08-16 02:30:34
+200,GlowUp Educational Elite 138,Toys,Educational,GlowUp,16.66,5.76,1118,2023-05-24 03:33:29
+201,PageTurn Organic Plus 184,Grocery,Organic,PageTurn,551.13,218.75,3585,2022-08-06 21:06:49
+202,FunPlay Condiments Lite 958,Grocery,Condiments,FunPlay,23.95,8.15,2409,2022-07-12 20:41:56
+203,FunPlay Oils Plus 787,Automotive,Oils,FunPlay,765.0,436.78,1257,2023-11-16 12:55:14
+204,GlowUp Puzzles Pro 791,Toys,Puzzles,GlowUp,535.1,255.15,391,2024-03-23 06:10:22
+205,GreenThumb Socks Standard 153,Clothing,Socks,GreenThumb,600.61,191.87,3091,2022-11-10 09:20:22
+206,FreshMart Soccer Max 193,Sports,Soccer,FreshMart,21.93,6.82,119,2023-06-08 16:37:09
+207,FreshMart Cycling Plus 916,Sports,Cycling,FreshMart,836.36,473.08,1368,2022-03-10 08:54:19
+208,PrimeTech Makeup Basic 675,Beauty,Makeup,PrimeTech,629.02,345.88,4437,2023-09-06 17:03:01
+209,FreshMart Makeup Max 208,Beauty,Makeup,FreshMart,360.43,133.16,3294,2023-05-07 06:17:24
+210,GlowUp Monitors Standard 325,Electronics,Monitors,GlowUp,71.61,44.83,3022,2022-03-10 06:09:45
+211,ActiveLife Jackets Ultra 885,Clothing,Jackets,ActiveLife,601.27,416.83,834,2024-04-12 22:17:46
+212,AutoParts Furniture Plus 714,Garden,Furniture,AutoParts,328.4,181.39,3183,2022-07-26 12:02:35
+213,PrimeTech Puzzles Standard 169,Toys,Puzzles,PrimeTech,339.08,184.26,4792,2023-11-29 08:38:10
+214,PureSkin Fragrance Pro 338,Beauty,Fragrance,PureSkin,27.08,16.34,1016,2023-04-25 18:42:41
+215,FreshMart Tennis Plus 161,Sports,Tennis,FreshMart,142.72,71.29,1654,2022-08-24 14:41:21
+216,StyleMax Fragrance Max 842,Beauty,Fragrance,StyleMax,600.48,407.34,2692,2022-07-28 13:50:13
+217,StyleMax Self-Help Elite 763,Books,Self-Help,StyleMax,813.82,488.47,1876,2023-05-30 14:39:03
+218,GlowUp Dolls Pro 780,Toys,Dolls,GlowUp,988.44,613.41,1822,2023-08-16 14:49:33
+219,FunPlay Tires Standard 744,Automotive,Tires,FunPlay,12.0,7.78,573,2022-10-26 23:37:55
+220,GlowUp Tablets Lite 193,Electronics,Tablets,GlowUp,178.62,92.8,1674,2023-01-03 02:16:48
+221,ActiveLife Accessories Standard 418,Automotive,Accessories,ActiveLife,169.16,64.11,3473,2022-10-02 01:59:32
+222,GreenThumb Decor Ultra 690,Garden,Decor,GreenThumb,451.57,250.28,2227,2024-01-18 11:20:39
+223,CozyHome Hats Elite 271,Clothing,Hats,CozyHome,473.88,222.29,4992,2023-11-05 07:27:35
+224,TechPro Rugs Elite 537,Home & Kitchen,Rugs,TechPro,854.91,515.98,2459,2024-04-14 12:10:52
+225,AutoParts Bedding Elite 574,Home & Kitchen,Bedding,AutoParts,310.0,128.12,4605,2024-01-17 23:10:34
+226,ReadMore Hats Standard 300,Clothing,Hats,ReadMore,159.79,60.06,105,2024-02-17 19:26:30
+227,CozyHome Plush Elite 504,Toys,Plush,CozyHome,970.66,436.08,4010,2023-04-24 04:01:09
+228,ActiveLife Tools Pro 227,Garden,Tools,ActiveLife,388.51,204.45,1591,2023-11-09 18:21:58
+229,PureSkin Self-Help Standard 750,Books,Self-Help,PureSkin,690.35,399.42,3156,2023-10-21 17:22:10
+230,KidJoy Swimming Pro 932,Sports,Swimming,KidJoy,365.24,212.8,231,2022-08-18 17:31:32
+231,ReadMore Comics Ultra 353,Books,Comics,ReadMore,604.53,411.51,1322,2022-01-20 03:58:16
+232,CozyHome Pants Elite 823,Clothing,Pants,CozyHome,588.63,388.73,4247,2022-10-21 07:50:27
+233,ActiveLife Hair Care Ultra 808,Beauty,Hair Care,ActiveLife,306.4,210.52,3135,2024-06-29 10:38:15
+234,HomeEase Children Plus 751,Books,Children,HomeEase,575.17,356.04,1169,2023-02-22 21:50:32
+235,GreenThumb Tennis Pro 272,Sports,Tennis,GreenThumb,817.48,245.76,572,2023-10-12 02:11:22
+236,GreenThumb Oils Elite 274,Automotive,Oils,GreenThumb,181.33,67.92,1100,2022-11-04 14:44:25
+237,PureSkin Canned Goods Plus 561,Grocery,Canned Goods,PureSkin,569.68,219.34,1646,2022-04-02 15:00:38
+238,AutoParts Lighting Elite 551,Home & Kitchen,Lighting,AutoParts,629.07,345.84,1360,2022-05-04 23:31:30
+239,CozyHome Non-Fiction Plus 383,Books,Non-Fiction,CozyHome,69.87,21.79,1923,2024-01-13 09:17:45
+240,TechPro Beverages Pro 372,Grocery,Beverages,TechPro,753.28,228.16,4771,2022-03-07 00:37:46
+241,PureSkin Jackets Pro 484,Clothing,Jackets,PureSkin,605.36,420.58,2177,2024-01-25 20:38:24
+242,BloomCraft Dairy Elite 444,Grocery,Dairy,BloomCraft,374.55,245.73,2582,2023-01-08 04:49:28
+243,CozyHome Educational Pro 464,Toys,Educational,CozyHome,873.83,543.97,25,2023-12-11 19:11:04
+244,TechPro Hair Care Plus 989,Beauty,Hair Care,TechPro,533.44,362.97,2036,2023-07-27 08:03:43
+245,PureSkin Organic Elite 776,Grocery,Organic,PureSkin,192.8,133.89,2639,2022-01-26 20:01:21
+246,PrimeTech Action Figures Standard 339,Toys,Action Figures,PrimeTech,609.11,280.23,666,2023-06-26 02:49:52
+247,SportZone Organic Elite 400,Beauty,Organic,SportZone,609.52,356.43,4260,2024-06-07 09:42:08
+248,ReadMore Parts Standard 915,Automotive,Parts,ReadMore,92.56,58.59,4495,2023-12-27 03:40:44
+249,SportZone Rugs Standard 778,Home & Kitchen,Rugs,SportZone,543.41,215.92,1396,2022-05-19 22:15:35
+250,TechPro Socks Lite 434,Clothing,Socks,TechPro,903.22,547.82,1805,2023-02-05 05:05:17
+251,ReadMore Beverages Standard 192,Grocery,Beverages,ReadMore,796.76,345.09,1833,2024-06-13 17:47:44
+252,PrimeTech Tools Elite 834,Garden,Tools,PrimeTech,744.5,439.26,4603,2023-11-10 19:08:00
+253,AutoParts Swimming Plus 397,Sports,Swimming,AutoParts,93.14,31.26,4851,2022-10-20 06:58:40
+254,ReadMore Hats Basic 489,Clothing,Hats,ReadMore,579.45,174.22,506,2024-04-12 00:43:43
+255,ActiveLife Tennis Basic 889,Sports,Tennis,ActiveLife,368.82,210.86,1034,2024-03-18 09:44:09
+256,SportZone Decor Elite 109,Garden,Decor,SportZone,541.05,262.0,1185,2023-04-07 02:23:02
+257,PageTurn Yoga Lite 715,Sports,Yoga,PageTurn,287.68,172.27,281,2023-05-13 07:39:37
+258,AutoParts Non-Fiction Standard 746,Books,Non-Fiction,AutoParts,829.71,413.2,3085,2022-04-02 08:41:31
+259,GlowUp Puzzles Max 817,Toys,Puzzles,GlowUp,737.3,493.45,1466,2024-01-28 07:29:26
+260,FunPlay Nail Care Pro 661,Beauty,Nail Care,FunPlay,395.92,185.68,3878,2023-06-26 01:49:55
+261,HomeEase Tools Ultra 389,Beauty,Tools,HomeEase,698.19,263.94,4489,2023-09-04 16:54:04
+262,PrimeTech Dresses Pro 970,Clothing,Dresses,PrimeTech,934.96,394.21,1340,2024-06-15 13:59:16
+263,KidJoy Rugs Ultra 248,Home & Kitchen,Rugs,KidJoy,214.5,133.36,1602,2022-01-15 04:29:05
+264,ReadMore Board Games Elite 537,Toys,Board Games,ReadMore,681.36,250.26,461,2022-05-30 04:55:08
+265,FunPlay Plush Pro 220,Toys,Plush,FunPlay,980.39,549.06,4861,2023-11-05 22:02:07
+266,FreshMart Decor Pro 221,Home & Kitchen,Decor,FreshMart,245.4,121.58,4883,2022-09-25 22:46:53
+267,PageTurn Makeup Elite 381,Beauty,Makeup,PageTurn,634.53,303.34,95,2022-07-06 09:56:19
+268,SportZone Pants Standard 756,Clothing,Pants,SportZone,670.77,338.0,188,2024-06-09 02:18:49
+269,AutoParts Irrigation Plus 913,Garden,Irrigation,AutoParts,595.31,270.02,3552,2023-04-09 11:47:30
+270,SportZone Furniture Basic 165,Garden,Furniture,SportZone,715.48,461.4,4403,2022-10-15 05:11:35
+271,CozyHome Skincare Standard 165,Beauty,Skincare,CozyHome,521.78,278.57,1016,2022-11-19 06:48:35
+272,BloomCraft Dresses Lite 105,Clothing,Dresses,BloomCraft,557.38,345.69,1007,2022-03-02 19:21:46
+273,FunPlay Lighting Plus 675,Home & Kitchen,Lighting,FunPlay,261.21,157.05,693,2022-07-13 17:47:28
+274,UrbanWear Electronics Lite 533,Automotive,Electronics,UrbanWear,977.23,550.44,2034,2023-04-12 23:10:46
+275,NatureBite Cameras Standard 243,Electronics,Cameras,NatureBite,579.6,335.03,4281,2023-07-01 23:52:40
+276,SportZone Decor Pro 342,Garden,Decor,SportZone,42.5,15.16,1763,2022-07-28 11:38:13
+277,DriveWell Decor Basic 384,Garden,Decor,DriveWell,133.71,73.4,609,2024-05-04 03:50:31
+278,CozyHome Biography Lite 509,Books,Biography,CozyHome,459.32,311.37,3484,2022-08-11 12:31:17
+279,HomeEase Care Ultra 748,Automotive,Care,HomeEase,698.61,263.41,3048,2024-05-25 14:06:09
+280,ActiveLife Tools Lite 423,Automotive,Tools,ActiveLife,992.48,469.89,212,2023-01-20 11:22:57
+281,SportZone Shoes Plus 800,Clothing,Shoes,SportZone,551.07,179.86,728,2023-07-18 14:53:26
+282,ReadMore Building Sets Max 380,Toys,Building Sets,ReadMore,15.79,7.12,1820,2023-08-12 04:26:13
+283,FunPlay Pants Ultra 702,Clothing,Pants,FunPlay,822.41,407.79,4333,2023-06-26 23:56:33
+284,NatureBite Fencing Ultra 722,Garden,Fencing,NatureBite,104.46,33.34,2605,2023-08-29 03:58:25
+285,NatureBite Appliances Elite 588,Home & Kitchen,Appliances,NatureBite,594.75,240.06,4207,2022-08-30 13:08:06
+286,CozyHome Bedding Ultra 154,Home & Kitchen,Bedding,CozyHome,918.92,510.62,3032,2023-01-22 23:33:16
+287,PageTurn Pots Lite 549,Garden,Pots,PageTurn,986.32,610.91,4114,2023-03-22 13:24:43
+288,PureSkin Children Max 412,Books,Children,PureSkin,637.81,213.52,2503,2023-09-24 11:58:10
+289,HomeEase Board Games Plus 847,Toys,Board Games,HomeEase,244.59,82.54,4712,2022-03-31 04:27:24
+290,NatureBite Shoes Standard 927,Clothing,Shoes,NatureBite,875.1,599.33,3473,2024-03-01 05:03:10
+291,KidJoy Rugs Plus 515,Home & Kitchen,Rugs,KidJoy,19.81,7.45,59,2023-10-23 04:21:43
+292,FreshMart Tires Pro 721,Automotive,Tires,FreshMart,451.95,166.05,4288,2022-12-16 15:09:53
+293,UrbanWear Furniture Lite 626,Home & Kitchen,Furniture,UrbanWear,357.16,114.42,4059,2023-08-12 21:40:38
+294,SportZone Appliances Basic 795,Home & Kitchen,Appliances,SportZone,254.26,131.11,965,2023-03-27 14:23:50
+295,GreenThumb Comics Ultra 318,Books,Comics,GreenThumb,8.21,4.54,3224,2022-12-04 19:36:55
+296,PageTurn Fiction Standard 158,Books,Fiction,PageTurn,359.6,196.42,2691,2023-04-09 11:19:06
+297,TechPro Board Games Basic 839,Toys,Board Games,TechPro,191.03,84.4,830,2023-11-01 05:31:49
+298,HomeEase Cereal Lite 520,Grocery,Cereal,HomeEase,129.09,63.9,1274,2023-01-24 13:41:58
+299,CozyHome Yoga Basic 406,Sports,Yoga,CozyHome,368.3,241.93,4394,2023-02-23 15:00:18
+300,PageTurn Accessories Lite 243,Clothing,Accessories,PageTurn,357.61,169.36,2942,2022-11-05 07:17:50
+301,GreenThumb Jackets Pro 236,Clothing,Jackets,GreenThumb,398.17,237.93,258,2022-09-07 00:52:59
+302,AutoParts Yoga Plus 531,Sports,Yoga,AutoParts,492.12,245.19,1043,2023-05-20 16:41:28
+303,ReadMore Tools Plus 210,Beauty,Tools,ReadMore,793.95,278.24,2819,2024-02-16 17:23:09
+304,StyleMax Headphones Basic 539,Electronics,Headphones,StyleMax,976.57,581.03,3558,2024-01-16 22:53:35
+305,KidJoy Biography Plus 879,Books,Biography,KidJoy,432.37,236.53,4188,2022-10-18 06:39:16
+306,SportZone Basketball Ultra 817,Sports,Basketball,SportZone,251.86,158.23,1625,2024-01-07 04:00:18
+307,GlowUp Dresses Lite 334,Clothing,Dresses,GlowUp,125.73,57.9,2243,2022-10-26 12:53:32
+308,TechPro Decor Max 193,Home & Kitchen,Decor,TechPro,865.15,391.17,4300,2023-04-22 01:07:58
+309,PrimeTech Swimming Elite 590,Sports,Swimming,PrimeTech,66.97,31.53,423,2023-04-18 16:45:11
+310,UrbanWear Shoes Ultra 459,Clothing,Shoes,UrbanWear,713.31,284.46,389,2022-10-10 08:11:30
+311,StyleMax Phones Basic 317,Electronics,Phones,StyleMax,289.6,119.33,4968,2022-06-06 12:40:06
+312,AutoParts Hair Care Standard 472,Beauty,Hair Care,AutoParts,338.27,116.57,111,2024-05-07 03:24:37
+313,UrbanWear Appliances Basic 860,Home & Kitchen,Appliances,UrbanWear,780.13,399.07,3044,2023-01-06 02:41:11
+314,DriveWell History Elite 189,Books,History,DriveWell,887.86,312.7,4930,2022-07-06 23:08:07
+315,GlowUp Headphones Standard 201,Electronics,Headphones,GlowUp,80.42,41.71,2809,2023-04-14 07:51:19
+316,NatureBite Cereal Lite 144,Grocery,Cereal,NatureBite,133.05,62.17,2068,2024-05-20 11:12:53
+317,PageTurn Outdoor Plus 546,Toys,Outdoor,PageTurn,73.29,34.27,4127,2022-02-03 23:33:19
+318,ReadMore Storage Ultra 146,Home & Kitchen,Storage,ReadMore,956.06,310.07,1558,2023-09-10 11:38:38
+319,FunPlay Beverages Standard 868,Grocery,Beverages,FunPlay,512.21,268.91,3196,2023-09-15 16:43:56
+320,GlowUp Fencing Lite 103,Garden,Fencing,GlowUp,165.03,63.89,72,2024-03-07 14:24:30
+321,GreenThumb Condiments Max 403,Grocery,Condiments,GreenThumb,710.0,369.81,1401,2022-12-14 20:41:42
+322,GreenThumb Headphones Pro 754,Electronics,Headphones,GreenThumb,153.24,100.13,1089,2023-02-25 02:32:31
+323,GlowUp Headphones Plus 101,Electronics,Headphones,GlowUp,650.74,359.91,3023,2023-05-20 04:32:37
+324,ReadMore Shoes Elite 726,Clothing,Shoes,ReadMore,299.12,207.62,85,2023-07-07 05:22:21
+325,FunPlay Basketball Ultra 116,Sports,Basketball,FunPlay,540.15,373.52,4778,2022-06-15 08:28:21
+326,BloomCraft Nail Care Max 936,Beauty,Nail Care,BloomCraft,445.52,191.44,1670,2024-06-22 13:59:53
+327,PageTurn Hair Care Max 847,Beauty,Hair Care,PageTurn,727.92,325.71,3924,2022-05-26 13:03:21
+328,PageTurn Canned Goods Lite 935,Grocery,Canned Goods,PageTurn,863.17,324.16,4018,2022-10-08 06:02:49
+329,GreenThumb Fiction Lite 281,Books,Fiction,GreenThumb,818.58,470.64,1538,2022-04-18 21:26:14
+330,ActiveLife Furniture Max 565,Home & Kitchen,Furniture,ActiveLife,909.67,625.99,821,2024-03-29 07:43:40
+331,BloomCraft Cookware Plus 486,Home & Kitchen,Cookware,BloomCraft,387.68,133.37,111,2022-03-09 22:44:49
+332,HomeEase Lighting Ultra 246,Home & Kitchen,Lighting,HomeEase,938.96,506.9,76,2022-06-15 04:36:11
+333,HomeEase Tires Max 242,Automotive,Tires,HomeEase,483.53,253.92,3639,2022-09-11 10:27:56
+334,KidJoy Self-Help Lite 349,Books,Self-Help,KidJoy,61.53,35.49,4453,2022-07-11 04:35:16
+335,SportZone Phones Ultra 205,Electronics,Phones,SportZone,514.46,326.47,1161,2022-01-02 21:07:39
+336,FreshMart Fitness Elite 494,Sports,Fitness,FreshMart,152.48,85.72,1850,2023-08-21 16:17:19
+337,FunPlay Accessories Plus 329,Clothing,Accessories,FunPlay,107.12,73.09,2927,2022-04-29 12:17:42
+338,SportZone Soil Basic 186,Garden,Soil,SportZone,896.2,485.56,1458,2023-10-28 20:25:30
+339,BloomCraft Tires Lite 795,Automotive,Tires,BloomCraft,428.68,281.75,2470,2023-03-22 20:20:33
+340,AutoParts Board Games Standard 777,Toys,Board Games,AutoParts,372.89,151.45,625,2022-01-04 09:13:48
+341,PrimeTech Bedding Lite 499,Home & Kitchen,Bedding,PrimeTech,450.01,278.44,3919,2022-04-15 13:38:03
+342,AutoParts Socks Lite 192,Clothing,Socks,AutoParts,327.11,114.82,3154,2023-07-02 18:12:26
+343,ActiveLife Plush Standard 810,Toys,Plush,ActiveLife,973.0,526.1,2731,2022-08-03 17:15:45
+344,ActiveLife Tennis Standard 651,Sports,Tennis,ActiveLife,536.56,275.25,1885,2023-08-21 11:56:36
+345,PureSkin Socks Max 819,Clothing,Socks,PureSkin,92.72,41.23,1665,2022-01-27 15:34:18
+346,ReadMore Plush Plus 161,Toys,Plush,ReadMore,911.88,405.19,1141,2023-04-03 19:06:40
+347,NatureBite Canned Goods Elite 348,Grocery,Canned Goods,NatureBite,215.46,83.99,1128,2022-07-02 02:52:03
+348,TechPro Decor Elite 480,Home & Kitchen,Decor,TechPro,59.75,20.46,4764,2022-04-25 14:21:21
+349,TechPro Canned Goods Lite 474,Grocery,Canned Goods,TechPro,146.42,58.28,102,2024-06-03 04:41:09
+350,FunPlay Hair Care Standard 861,Beauty,Hair Care,FunPlay,145.26,74.22,2453,2024-01-01 09:44:55
+351,PageTurn Bath Pro 393,Beauty,Bath,PageTurn,116.59,37.78,263,2022-09-27 15:32:20
+352,TechPro Tools Elite 952,Automotive,Tools,TechPro,427.07,290.11,3721,2024-05-10 20:25:48
+353,FreshMart Biography Elite 260,Books,Biography,FreshMart,276.19,93.01,3092,2022-07-14 09:18:34
+354,BloomCraft Tennis Pro 324,Sports,Tennis,BloomCraft,395.93,249.04,4581,2022-04-30 22:34:08
+355,PrimeTech Organic Elite 947,Grocery,Organic,PrimeTech,384.18,123.66,3043,2023-10-22 00:08:18
+356,SportZone Basketball Plus 179,Sports,Basketball,SportZone,366.52,224.13,2748,2022-02-13 13:44:14
+357,FunPlay Basketball Plus 166,Sports,Basketball,FunPlay,216.63,65.94,2532,2022-10-19 15:35:47
+358,StyleMax Care Max 375,Automotive,Care,StyleMax,90.52,47.8,367,2024-05-25 17:43:30
+359,StyleMax Snacks Basic 195,Grocery,Snacks,StyleMax,943.84,286.35,2921,2023-03-15 16:42:58
+360,PrimeTech Fragrance Elite 843,Beauty,Fragrance,PrimeTech,359.69,126.54,797,2023-05-30 16:26:14
+361,PureSkin Makeup Lite 124,Beauty,Makeup,PureSkin,589.64,267.02,4803,2022-02-28 02:40:55
+362,ReadMore Science Standard 180,Books,Science,ReadMore,885.88,298.82,1897,2022-12-01 23:54:36
+363,PureSkin Bedding Basic 558,Home & Kitchen,Bedding,PureSkin,786.63,342.66,2951,2023-11-01 09:10:13
+364,FreshMart Monitors Max 725,Electronics,Monitors,FreshMart,609.23,416.23,4644,2024-02-12 20:59:43
+365,ReadMore Shirts Ultra 660,Clothing,Shirts,ReadMore,868.32,537.45,714,2024-02-15 00:47:50
+366,PrimeTech Accessories Lite 402,Clothing,Accessories,PrimeTech,166.49,68.6,2976,2023-07-03 22:31:54
+367,FunPlay Pants Standard 364,Clothing,Pants,FunPlay,986.22,681.87,3621,2022-08-07 04:15:09
+368,StyleMax Accessories Basic 979,Clothing,Accessories,StyleMax,290.9,134.87,1056,2023-11-16 19:14:49
+369,UrbanWear Outdoor Plus 798,Toys,Outdoor,UrbanWear,416.71,200.04,349,2022-03-30 15:18:05
+370,ReadMore Fitness Plus 397,Sports,Fitness,ReadMore,379.56,200.43,597,2022-12-13 11:57:17
+371,HomeEase Organic Basic 577,Beauty,Organic,HomeEase,471.67,242.46,3808,2022-06-19 12:15:11
+372,SportZone Dresses Elite 886,Clothing,Dresses,SportZone,436.51,201.06,528,2023-05-08 21:14:13
+373,GlowUp Plush Standard 217,Toys,Plush,GlowUp,282.69,89.14,1275,2024-01-01 01:39:36
+374,PrimeTech Lighting Pro 715,Home & Kitchen,Lighting,PrimeTech,775.55,252.02,2961,2023-10-31 03:39:11
+375,StyleMax Cereal Max 988,Grocery,Cereal,StyleMax,28.8,17.38,3464,2023-02-24 04:40:00
+376,HomeEase Science Lite 170,Books,Science,HomeEase,278.25,92.57,3698,2023-10-15 00:21:54
+377,AutoParts Care Lite 950,Automotive,Care,AutoParts,59.41,39.09,3510,2023-06-16 07:23:52
+378,GlowUp Science Basic 529,Books,Science,GlowUp,484.73,249.25,1316,2023-11-10 12:29:14
+379,TechPro Educational Max 179,Toys,Educational,TechPro,724.38,384.93,1184,2023-05-18 21:37:30
+380,ReadMore Action Figures Standard 251,Toys,Action Figures,ReadMore,502.44,214.32,3329,2023-02-13 05:59:40
+381,PageTurn Parts Lite 749,Automotive,Parts,PageTurn,452.62,311.3,798,2022-02-26 16:17:44
+382,ActiveLife Swimming Lite 715,Sports,Swimming,ActiveLife,381.28,167.47,1565,2024-06-15 02:01:14
+383,UrbanWear Speakers Pro 409,Electronics,Speakers,UrbanWear,897.26,449.38,1021,2024-02-15 08:56:23
+384,ActiveLife Frozen Basic 460,Grocery,Frozen,ActiveLife,829.21,390.01,2751,2022-06-26 03:06:45
+385,ActiveLife Rugs Basic 281,Home & Kitchen,Rugs,ActiveLife,555.43,202.77,3570,2023-08-16 17:42:42
+386,GreenThumb Children Plus 189,Books,Children,GreenThumb,807.09,275.64,134,2023-10-01 21:37:02
+387,BloomCraft Accessories Plus 748,Clothing,Accessories,BloomCraft,447.43,238.25,267,2023-03-27 08:25:17
+388,FreshMart Fragrance Standard 664,Beauty,Fragrance,FreshMart,384.78,145.53,3846,2022-07-13 07:28:49
+389,ActiveLife Plush Elite 107,Toys,Plush,ActiveLife,939.97,576.09,4157,2023-03-17 13:32:21
+390,GreenThumb Biography Elite 789,Books,Biography,GreenThumb,246.1,162.44,3396,2022-02-20 18:11:52
+391,ReadMore Phones Basic 960,Electronics,Phones,ReadMore,817.8,513.59,4914,2023-05-09 04:10:31
+392,DriveWell Puzzles Elite 347,Toys,Puzzles,DriveWell,558.4,254.93,3222,2022-03-22 03:04:43
+393,ReadMore Pots Elite 845,Garden,Pots,ReadMore,178.66,118.21,4237,2022-09-04 03:12:27
+394,SportZone Fragrance Lite 616,Beauty,Fragrance,SportZone,123.65,65.63,3211,2023-02-09 06:04:55
+395,PrimeTech Tools Max 195,Automotive,Tools,PrimeTech,98.7,46.88,4860,2022-08-26 18:03:57
+396,DriveWell Laptops Elite 125,Electronics,Laptops,DriveWell,743.88,262.01,3716,2023-07-11 07:43:54
+397,FreshMart Lighting Ultra 298,Home & Kitchen,Lighting,FreshMart,538.19,214.25,3097,2023-02-09 15:23:16
+398,HomeEase Cameras Lite 742,Electronics,Cameras,HomeEase,28.99,20.12,847,2022-06-22 07:49:36
+399,SportZone Beverages Lite 389,Grocery,Beverages,SportZone,266.41,99.17,633,2024-02-07 18:47:27
+400,CozyHome Dolls Plus 602,Toys,Dolls,CozyHome,796.66,370.84,3985,2022-04-29 13:08:35
+401,CozyHome Tennis Basic 748,Sports,Tennis,CozyHome,908.84,566.59,1472,2023-04-10 02:23:35
+402,DriveWell Tablets Pro 220,Electronics,Tablets,DriveWell,976.05,680.79,3964,2024-04-28 22:21:16
+403,PureSkin Tablets Ultra 224,Electronics,Tablets,PureSkin,197.68,61.64,188,2024-03-15 16:15:01
+404,GlowUp Tools Basic 217,Automotive,Tools,GlowUp,899.17,280.36,1135,2022-12-08 09:17:17
+405,AutoParts Dresses Ultra 593,Clothing,Dresses,AutoParts,204.03,68.71,4517,2023-04-03 05:04:39
+406,ActiveLife Organic Elite 297,Grocery,Organic,ActiveLife,254.58,96.52,2302,2023-09-03 05:36:43
+407,FunPlay Shoes Max 839,Clothing,Shoes,FunPlay,490.89,320.62,3471,2023-02-27 00:44:16
+408,BloomCraft Board Games Elite 539,Toys,Board Games,BloomCraft,204.51,90.22,526,2023-11-30 02:58:21
+409,PureSkin Cookware Ultra 700,Home & Kitchen,Cookware,PureSkin,413.34,223.85,4345,2023-07-02 04:57:22
+410,SportZone Skincare Lite 928,Beauty,Skincare,SportZone,326.74,201.39,2930,2023-01-17 02:07:24
+411,UrbanWear Jackets Basic 248,Clothing,Jackets,UrbanWear,780.83,272.45,2609,2022-01-17 22:25:10
+412,PageTurn Dolls Basic 338,Toys,Dolls,PageTurn,564.26,256.31,4929,2022-11-26 14:27:48
+413,SportZone Care Ultra 833,Automotive,Care,SportZone,610.25,398.7,612,2024-06-10 14:20:49
+414,PrimeTech Tools Basic 302,Beauty,Tools,PrimeTech,201.93,125.42,4084,2022-03-14 16:31:34
+415,SportZone Children Plus 563,Books,Children,SportZone,176.1,75.86,3136,2023-01-03 06:26:52
+416,GreenThumb Plants Pro 759,Garden,Plants,GreenThumb,784.6,416.08,38,2023-12-19 08:06:08
+417,CozyHome Science Pro 646,Books,Science,CozyHome,918.52,289.93,133,2022-04-18 21:26:13
+418,ActiveLife Beverages Ultra 381,Grocery,Beverages,ActiveLife,321.28,140.83,653,2024-05-14 09:58:01
+419,BloomCraft Plush Pro 502,Toys,Plush,BloomCraft,302.64,209.91,4041,2022-07-08 14:36:09
+420,TechPro Board Games Max 148,Toys,Board Games,TechPro,826.49,293.81,2644,2023-11-08 19:25:10
+421,HomeEase Running Max 841,Sports,Running,HomeEase,902.85,404.07,4403,2022-01-08 16:13:37
+422,StyleMax Cameras Plus 149,Electronics,Cameras,StyleMax,947.45,312.67,2697,2023-08-13 14:53:26
+423,ReadMore Science Standard 222,Books,Science,ReadMore,131.52,84.8,4785,2023-10-05 00:42:50
+424,PureSkin Beverages Max 691,Grocery,Beverages,PureSkin,481.05,238.62,2298,2023-05-16 01:43:31
+425,HomeEase Cereal Ultra 884,Grocery,Cereal,HomeEase,300.45,100.09,4575,2023-01-12 12:26:30
+426,HomeEase Cycling Standard 161,Sports,Cycling,HomeEase,217.19,123.41,3835,2023-08-22 04:05:08
+427,SportZone Yoga Basic 313,Sports,Yoga,SportZone,815.1,492.84,4210,2023-05-02 18:52:16
+428,ReadMore Comics Plus 233,Books,Comics,ReadMore,223.46,99.54,3706,2024-03-08 15:19:37
+429,GlowUp Tennis Plus 384,Sports,Tennis,GlowUp,426.55,245.06,4728,2022-06-08 13:14:05
+430,SportZone Rugs Plus 346,Home & Kitchen,Rugs,SportZone,22.48,10.89,2185,2022-02-14 09:46:21
+431,UrbanWear Organic Ultra 221,Grocery,Organic,UrbanWear,927.36,309.39,3534,2022-11-26 10:23:40
+432,PureSkin Decor Elite 620,Home & Kitchen,Decor,PureSkin,337.73,160.94,3029,2022-06-01 22:43:18
+433,ActiveLife Monitors Max 401,Electronics,Monitors,ActiveLife,194.3,72.02,2260,2024-04-02 15:31:49
+434,PureSkin Irrigation Elite 211,Garden,Irrigation,PureSkin,683.06,381.51,909,2022-12-08 02:31:37
+435,StyleMax Shirts Ultra 344,Clothing,Shirts,StyleMax,71.44,24.32,1855,2023-09-21 11:04:03
+436,SportZone Tools Max 851,Beauty,Tools,SportZone,825.11,475.82,4056,2022-11-16 13:15:08
+437,UrbanWear Lighting Ultra 822,Home & Kitchen,Lighting,UrbanWear,598.73,355.38,772,2022-10-15 12:14:19
+438,GreenThumb Lighting Max 274,Automotive,Lighting,GreenThumb,319.21,104.63,1534,2023-05-31 23:38:51
+439,TechPro Canned Goods Standard 538,Grocery,Canned Goods,TechPro,338.04,125.41,2161,2022-04-30 13:54:47
+440,BloomCraft Cookware Basic 585,Home & Kitchen,Cookware,BloomCraft,585.65,290.09,2027,2024-01-05 02:37:16
+441,TechPro Shirts Ultra 955,Clothing,Shirts,TechPro,232.91,116.75,1200,2022-05-26 21:13:20
+442,PrimeTech Shoes Standard 602,Clothing,Shoes,PrimeTech,736.4,512.47,2108,2024-01-26 17:47:07
+443,PageTurn Self-Help Pro 947,Books,Self-Help,PageTurn,356.5,208.22,4242,2024-01-23 10:03:26
+444,PureSkin Shoes Pro 251,Clothing,Shoes,PureSkin,978.76,628.86,1160,2023-07-09 21:10:21
+445,FreshMart Snacks Elite 468,Grocery,Snacks,FreshMart,211.06,70.85,3094,2022-06-17 15:59:01
+446,PureSkin Comics Lite 371,Books,Comics,PureSkin,910.86,400.36,2713,2023-08-31 10:30:51
+447,AutoParts Pots Ultra 295,Garden,Pots,AutoParts,46.84,23.8,2812,2022-07-11 00:19:41
+448,DriveWell Organic Basic 395,Beauty,Organic,DriveWell,115.52,35.04,1205,2023-12-26 09:34:31
+449,BloomCraft Storage Lite 410,Home & Kitchen,Storage,BloomCraft,489.89,159.63,2414,2022-01-25 05:19:36
+450,GlowUp Snacks Ultra 945,Grocery,Snacks,GlowUp,595.5,191.32,2505,2022-01-08 21:46:41
+451,TechPro Bath Pro 357,Beauty,Bath,TechPro,142.88,93.08,4112,2024-05-21 02:14:32
+452,AutoParts Furniture Lite 850,Home & Kitchen,Furniture,AutoParts,201.54,107.64,661,2023-03-28 17:53:07
+453,KidJoy Fitness Basic 354,Sports,Fitness,KidJoy,812.83,450.97,3461,2023-09-13 00:02:00
+454,GreenThumb Shoes Ultra 277,Clothing,Shoes,GreenThumb,566.51,323.8,2641,2024-06-17 03:38:37
+455,AutoParts Lighting Lite 526,Home & Kitchen,Lighting,AutoParts,556.95,234.16,701,2023-04-07 21:25:13
+456,NatureBite Irrigation Lite 484,Garden,Irrigation,NatureBite,783.7,496.51,786,2022-08-04 07:45:02
+457,PrimeTech Lighting Basic 579,Automotive,Lighting,PrimeTech,358.06,174.24,3360,2023-12-18 13:54:48
+458,ActiveLife Phones Plus 873,Electronics,Phones,ActiveLife,145.73,96.58,1987,2024-06-20 11:59:16
+459,ReadMore Tires Ultra 154,Automotive,Tires,ReadMore,756.79,345.9,3300,2022-01-10 05:56:17
+460,StyleMax Organic Plus 156,Grocery,Organic,StyleMax,274.54,190.66,876,2023-06-03 01:09:51
+461,GreenThumb Tools Standard 807,Garden,Tools,GreenThumb,335.31,108.76,4789,2024-03-04 12:46:56
+462,PureSkin Headphones Lite 675,Electronics,Headphones,PureSkin,741.97,369.59,1831,2022-08-29 10:26:55
+463,TechPro Biography Standard 738,Books,Biography,TechPro,689.64,238.54,0,2022-08-26 17:04:36
+464,PureSkin Tools Plus 353,Garden,Tools,PureSkin,209.06,102.33,4143,2023-11-21 10:39:18
+465,SportZone Skincare Ultra 514,Beauty,Skincare,SportZone,486.81,181.88,1924,2024-04-29 07:10:15
+466,BloomCraft Comics Plus 542,Books,Comics,BloomCraft,151.36,46.72,1160,2023-01-09 21:16:17
+467,KidJoy Lighting Standard 396,Home & Kitchen,Lighting,KidJoy,293.7,99.86,4823,2024-02-05 19:02:06
+468,CozyHome Building Sets Elite 814,Toys,Building Sets,CozyHome,801.05,388.98,3480,2022-08-19 04:02:55
+469,PageTurn Cameras Plus 677,Electronics,Cameras,PageTurn,393.08,209.2,279,2023-11-22 11:23:33
+470,ReadMore Speakers Standard 840,Electronics,Speakers,ReadMore,461.59,140.16,1296,2023-07-10 17:47:58
+471,UrbanWear Care Elite 625,Automotive,Care,UrbanWear,68.38,38.45,2882,2024-05-24 19:40:13
+472,ReadMore Plush Ultra 903,Toys,Plush,ReadMore,764.02,321.78,3227,2022-04-16 23:03:25
+473,KidJoy Frozen Lite 689,Grocery,Frozen,KidJoy,710.24,357.1,4304,2023-02-07 16:38:47
+474,DriveWell Appliances Basic 698,Home & Kitchen,Appliances,DriveWell,619.76,286.03,368,2022-02-15 20:39:14
+475,SportZone Lighting Plus 611,Home & Kitchen,Lighting,SportZone,934.62,458.49,1896,2023-01-03 13:43:41
+476,CozyHome Dresses Elite 165,Clothing,Dresses,CozyHome,67.55,27.03,306,2022-04-24 05:13:35
+477,BloomCraft Dairy Pro 278,Grocery,Dairy,BloomCraft,325.22,188.46,3093,2022-07-26 22:40:34
+478,GlowUp Decor Ultra 602,Garden,Decor,GlowUp,440.88,182.72,1648,2022-09-09 19:08:15
+479,HomeEase Fragrance Pro 744,Beauty,Fragrance,HomeEase,960.06,324.96,272,2022-08-07 08:33:11
+480,ActiveLife Speakers Plus 448,Electronics,Speakers,ActiveLife,190.18,112.58,4326,2024-02-10 18:45:44
+481,DriveWell Swimming Standard 612,Sports,Swimming,DriveWell,355.98,194.86,4576,2022-08-03 04:17:52
+482,ActiveLife Accessories Elite 994,Clothing,Accessories,ActiveLife,76.43,25.32,4237,2023-04-09 06:42:28
+483,KidJoy Pants Max 152,Clothing,Pants,KidJoy,603.87,261.09,1835,2023-03-27 08:07:26
+484,UrbanWear Children Plus 993,Books,Children,UrbanWear,872.23,599.44,612,2024-04-10 04:45:49
+485,PureSkin Decor Ultra 508,Garden,Decor,PureSkin,620.92,321.87,908,2024-06-24 07:20:02
+486,TechPro Condiments Pro 446,Grocery,Condiments,TechPro,424.87,161.54,486,2022-08-05 09:03:23
+487,StyleMax Soccer Max 605,Sports,Soccer,StyleMax,78.46,53.29,4997,2022-02-24 22:23:37
+488,ActiveLife Board Games Plus 664,Toys,Board Games,ActiveLife,481.89,169.52,341,2022-06-11 15:41:00
+489,PureSkin Keyboards Max 765,Electronics,Keyboards,PureSkin,354.15,173.9,1865,2022-02-03 07:27:45
+490,GlowUp Phones Elite 798,Electronics,Phones,GlowUp,685.48,210.61,3949,2022-03-22 23:56:08
+491,ReadMore Tools Elite 818,Beauty,Tools,ReadMore,430.26,152.79,3587,2022-07-03 07:04:52
+492,UrbanWear Soil Max 451,Garden,Soil,UrbanWear,439.9,142.16,1900,2022-05-23 21:39:57
+493,FreshMart Plants Elite 865,Garden,Plants,FreshMart,754.04,469.84,4392,2024-06-01 10:23:14
+494,FreshMart Phones Pro 178,Electronics,Phones,FreshMart,62.3,29.62,2315,2022-03-09 21:58:42
+495,BloomCraft Outdoor Max 399,Toys,Outdoor,BloomCraft,134.93,61.95,1002,2022-04-30 07:27:16
+496,NatureBite Shoes Max 606,Clothing,Shoes,NatureBite,707.01,442.14,1804,2023-11-21 00:26:17
+497,NatureBite Self-Help Ultra 989,Books,Self-Help,NatureBite,655.71,334.9,2191,2023-05-11 07:55:23
+498,StyleMax Accessories Basic 520,Automotive,Accessories,StyleMax,707.26,388.11,2291,2022-05-02 20:40:54
+499,PureSkin Running Max 412,Sports,Running,PureSkin,743.45,285.71,3050,2022-08-09 12:41:54
+500,PageTurn Headphones Standard 216,Electronics,Headphones,PageTurn,27.15,17.23,2214,2023-03-08 19:22:23

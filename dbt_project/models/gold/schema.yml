@@ -1,0 +1,181 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: "Denormalized fact table at order grain with profitability, fulfillment, and customer metrics"
+    columns:
+      - name: ORDER_ID
+        description: "Primary key - unique order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: CUSTOMER_ID
+        description: "Foreign key to dim_customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: CUSTOMER_ID
+      - name: ORDER_STATUS
+        description: "Current order status"
+        tests:
+          - not_null
+      - name: ORDER_TOTAL
+        description: "Total order amount"
+        tests:
+          - not_null
+      - name: NET_REVENUE
+        description: "Amount paid minus amount refunded"
+        tests:
+          - not_null
+
+  - name: dim_customers
+    description: "Customer dimension with behavioral analytics, value metrics, and loyalty tier"
+    columns:
+      - name: CUSTOMER_ID
+        description: "Primary key - unique customer identifier"
+        tests:
+          - unique
+          - not_null
+      - name: EMAIL
+        description: "Customer email"
+        tests:
+          - unique
+          - not_null
+      - name: FULL_NAME
+        description: "Customer full name"
+        tests:
+          - not_null
+      - name: SEGMENT
+        description: "Customer segment"
+        tests:
+          - not_null
+      - name: LOYALTY_TIER
+        description: "Calculated loyalty tier based on order volume and spend"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['PLATINUM', 'GOLD', 'SILVER', 'BRONZE']
+      - name: CANCELLATION_RATE
+        description: "Percentage of orders cancelled"
+        tests:
+          - not_null
+
+  - name: dim_products
+    description: "Product dimension with sales performance, margin, inventory, and return metrics"
+    columns:
+      - name: PRODUCT_ID
+        description: "Primary key - unique product identifier"
+        tests:
+          - unique
+          - not_null
+      - name: CATEGORY
+        description: "Product category"
+        tests:
+          - not_null
+      - name: PRICE_TIER
+        description: "Price-based product tier from Silver"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['BUDGET', 'MID_RANGE', 'PREMIUM', 'LUXURY']
+      - name: SALES_TIER
+        description: "Calculated sales performance tier"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['TOP_SELLER', 'STRONG', 'ACTIVE', 'NO_SALES']
+
+  - name: dim_dates
+    description: "Date dimension spanning the full order date range"
+    columns:
+      - name: DATE_KEY
+        description: "Primary key - unique date"
+        tests:
+          - unique
+          - not_null
+      - name: MONTH_NUM
+        description: "Month number (1-12)"
+        tests:
+          - not_null
+      - name: YEAR_NUM
+        description: "Calendar year"
+        tests:
+          - not_null
+
+  - name: fact_shipment_performance
+    description: "Shipment performance fact table with carrier, timing, and customer context"
+    columns:
+      - name: SHIPMENT_ID
+        description: "Primary key - unique shipment identifier"
+        tests:
+          - unique
+          - not_null
+      - name: ORDER_ID
+        description: "Foreign key to fact_sales"
+        tests:
+          - not_null
+      - name: CUSTOMER_ID
+        description: "Foreign key to dim_customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: CUSTOMER_ID
+      - name: CARRIER
+        description: "Shipping carrier"
+        tests:
+          - not_null
+      - name: SHIPPING_SPEED
+        description: "Categorized shipping speed"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SAME_DAY', 'FAST', 'STANDARD', 'SLOW', 'PENDING']
+
+  - name: fact_payment_summary
+    description: "Payment summary fact table at order grain with success rates and outcome classification"
+    columns:
+      - name: ORDER_ID
+        description: "Primary key - unique order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: CUSTOMER_ID
+        description: "Foreign key to dim_customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: CUSTOMER_ID
+      - name: PAYMENT_SUCCESS_RATE
+        description: "Percentage of successful payment attempts"
+        tests:
+          - not_null
+      - name: PAYMENT_OUTCOME
+        description: "Classified payment outcome for the order"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CLEAN', 'RECOVERED', 'ALL_FAILED', 'REFUNDED', 'NO_PAYMENT']
+
+  - name: fact_daily_revenue
+    description: "Pre-aggregated daily revenue metrics for trend analysis"
+    columns:
+      - name: REVENUE_DATE
+        description: "Primary key - calendar date"
+        tests:
+          - unique
+          - not_null
+      - name: TOTAL_ORDERS
+        description: "Number of orders on this date"
+        tests:
+          - not_null
+      - name: GROSS_REVENUE
+        description: "Total gross revenue for the date"
+        tests:
+          - not_null
+      - name: NET_REVENUE
+        description: "Gross revenue minus cancellations and returns"
+        tests:
+          - not_null

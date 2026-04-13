@@ -1,0 +1,22 @@
+definition_version: 2
+entities:
+  coco_de_dashboard:
+    type: streamlit
+    identifier:
+      name: COCO_DE_PIPELINE_DASHBOARD
+      database: COCO_DE_DEMO
+      schema: PUBLIC
+    query_warehouse: DEMO_WH
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+  coco_de_governance:
+    type: streamlit
+    identifier:
+      name: COCO_DE_GOVERNANCE_DASHBOARD
+      database: COCO_DE_DEMO
+      schema: PUBLIC
+    query_warehouse: DEMO_WH
+    main_file: governance_dashboard.py
+    artifacts:
+      - governance_dashboard.py

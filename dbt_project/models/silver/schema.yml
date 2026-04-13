@@ -1,0 +1,186 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned and standardized customer records with derived attributes"
+    columns:
+      - name: CUSTOMER_ID
+        description: "Primary key - unique customer identifier"
+        tests:
+          - unique
+          - not_null
+      - name: EMAIL
+        description: "Customer email address, lowercased"
+        tests:
+          - not_null
+          - unique
+      - name: FULL_NAME
+        description: "Concatenated first and last name"
+        tests:
+          - not_null
+      - name: EMAIL_DOMAIN
+        description: "Domain extracted from email address"
+        tests:
+          - not_null
+      - name: CUSTOMER_TENURE_DAYS
+        description: "Days since customer account creation"
+        tests:
+          - not_null
+      - name: SEGMENT
+        description: "Customer segment classification"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['REGULAR', 'VIP', 'NEW', 'PREMIUM']
+
+  - name: stg_orders
+    description: "Cleaned order records with derived attributes and value flags"
+    columns:
+      - name: ORDER_ID
+        description: "Primary key - unique order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: CUSTOMER_ID
+        description: "Foreign key to stg_customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: CUSTOMER_ID
+      - name: STATUS
+        description: "Order status"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SHIPPED', 'CANCELLED', 'COMPLETED', 'PENDING', 'RETURNED']
+      - name: TOTAL_AMOUNT
+        description: "Order total amount"
+        tests:
+          - not_null
+      - name: DAYS_SINCE_ORDER
+        description: "Days elapsed since order was placed"
+        tests:
+          - not_null
+      - name: ORDER_DAY_OF_WEEK
+        description: "Day name when order was placed"
+        tests:
+          - not_null
+
+  - name: stg_order_items
+    description: "Cleaned order line items with margin and discount analysis"
+    columns:
+      - name: ORDER_ITEM_ID
+        description: "Primary key - unique line item identifier"
+        tests:
+          - unique
+          - not_null
+      - name: ORDER_ID
+        description: "Foreign key to stg_orders"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: ORDER_ID
+      - name: PRODUCT_ID
+        description: "Foreign key to stg_products"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_products')
+              field: PRODUCT_ID
+      - name: QUANTITY
+        description: "Quantity ordered"
+        tests:
+          - not_null
+      - name: DISCOUNT_PCT
+        description: "Discount as a percentage of gross line value"
+        tests:
+          - not_null
+      - name: LINE_TOTAL
+        description: "Net line total after discount"
+        tests:
+          - not_null
+
+  - name: stg_products
+    description: "Cleaned product catalog with pricing tiers and margin analysis"
+    columns:
+      - name: PRODUCT_ID
+        description: "Primary key - unique product identifier"
+        tests:
+          - unique
+          - not_null
+      - name: CATEGORY
+        description: "Product category"
+        tests:
+          - not_null
+      - name: UNIT_PRICE
+        description: "Product selling price"
+        tests:
+          - not_null
+      - name: MARGIN_PCT
+        description: "Profit margin as percentage of unit price"
+        tests:
+          - not_null
+      - name: PRICE_TIER
+        description: "Price-based product tier"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['BUDGET', 'MID_RANGE', 'PREMIUM', 'LUXURY']
+
+  - name: stg_payments
+    description: "Cleaned payment records with method grouping and timing"
+    columns:
+      - name: PAYMENT_ID
+        description: "Primary key - unique payment identifier"
+        tests:
+          - unique
+          - not_null
+      - name: ORDER_ID
+        description: "Foreign key to stg_orders"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: ORDER_ID
+      - name: STATUS
+        description: "Payment status"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['COMPLETED', 'FAILED', 'REFUNDED', 'PENDING']
+      - name: PAYMENT_METHOD_GROUP
+        description: "Grouped payment method category"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['CARD', 'DIGITAL', 'GIFT_CARD', 'OTHER']
+
+  - name: stg_shipments
+    description: "Cleaned shipment records with delivery performance metrics"
+    columns:
+      - name: SHIPMENT_ID
+        description: "Primary key - unique shipment identifier"
+        tests:
+          - unique
+          - not_null
+      - name: ORDER_ID
+        description: "Foreign key to stg_orders"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: ORDER_ID
+      - name: STATUS
+        description: "Shipment status"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['IN_TRANSIT', 'DELIVERED', 'RETURNED', 'OUT_FOR_DELIVERY']
+      - name: SHIPPING_SPEED
+        description: "Categorized shipping speed based on delivery days"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SAME_DAY', 'FAST', 'STANDARD', 'SLOW', 'PENDING']

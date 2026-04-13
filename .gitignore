@@ -1,0 +1,20 @@
+# Secrets and credentials
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# dbt
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
