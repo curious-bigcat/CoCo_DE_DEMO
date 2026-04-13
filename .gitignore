@@ -15,6 +15,9 @@ dbt_project/dbt_packages/
 # OS
 .DS_Store
 
+# Build artifacts
+output/
+
 # IDE
 .vscode/
 .idea/
